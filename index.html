@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="layout.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Colour Guesser!</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="inner_header">
+        <div class="title-container">
+          <h1>COLOUR<span>GUESSER</span></h1>
+        </div>
+        <div class="navigation">
+          <ul>
+            <li onclick="toggleMenu()"><a href="#">Mode</a></li>
+            <li>Difficulty</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sub-menu-wrap" id="subMenu">
+        <div class="sub-menu">
+          <a href="#" class="sub-menu-link">
+            <p>HEX</p>
+            <span>></span>
+          </a>
+          <a href="#" class="sub-menu-link">
+            <p>RGB</p>
+            <span>></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="scoreboard">
+      <div class="blinkingText">Score: <span class="score">0</span>/10</div>
+      <hr />
+      <h2 class="colorCode">Click any square to start!</h2>
+    </div>
+    <div class="grid-container">
+      <a href="#"
+        ><div id="hard0" class="square" onclick="checkSelection(0)"></div
+      ></a>
+      <a href="#"
+        ><div id="hard1" class="square" onclick="checkSelection(1)"></div
+      ></a>
+      <a href="#"
+        ><div id="hard2" class="square" onclick="checkSelection(2)"></div
+      ></a>
+      <a href="#"
+        ><div id="hard3" class="square" onclick="checkSelection(3)"></div
+      ></a>
+      <a href="#"
+        ><div id="hard4" class="square" onclick="checkSelection(4)"></div
+      ></a>
+      <a href="#"
+        ><div id="hard5" class="square" onclick="checkSelection(5)"></div
+      ></a>
+      <a href="#"
+        ><div id="hard6" class="square" onclick="checkSelection(6)"></div
+      ></a>
+      <a href="#"
+        ><div id="hard7" class="square" onclick="checkSelection(7)"></div
+      ></a>
+      <a href="#"
+        ><div id="hard8" class="square" onclick="checkSelection(8)"></div
+      ></a>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
