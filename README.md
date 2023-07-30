@@ -1,6 +1,6 @@
-# ColourGuesser
+# Colour Guesser!
 
-## Overview
+## Overview:
 
 This is a game I built for fun using HTML, CSS and JavaScript. The game involves 9 squares that will change to random RGB colours.
 The goal of the game is to correctly guess which square represents the RGB colour code that's displayed in the rectangle just above the 9 squares.
